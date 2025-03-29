@@ -1,0 +1,58 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# PyInstaller
+*.spec
+dist/
+build/
+
+# Distribution / packaging
+*.egg-info/
+.eggs/
+*.egg
+*.whl
+
+# Logs and debugging
+*.log
+debug/
+logs/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Ultralytics YOLO outputs
+runs/
+weights/
+
+# Datasets (optional, if locally stored and large)
+Poles/
+
+# PyTorch files
+*.pt
+*.pth
+
+# TensorRT engine files
+*.plan
+
+# VSCode settings
+.vscode/
+
+# Output folders
+output/
+results/
+
+# Ignore environment config files
+.env
+.env.*
